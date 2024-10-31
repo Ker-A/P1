@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    grid-template-columns: 5;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.25rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
+p, li{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5rem;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.Questions {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.noLine{
+    text-decoration: none;
+    color: #4E80EE;
+}
+
+.Negrita{
+    font-weight: bold;
+}
+.space {
+    padding: 1rem 0rem;
+}
+
+.fondo {
+    background-color: #F8FAFC;
+}
